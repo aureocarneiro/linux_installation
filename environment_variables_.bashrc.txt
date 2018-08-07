@@ -1,17 +1,17 @@
 For the complete installation you should put the following command lines in your file:
 
-  export PATH=/opt/epics-R3.15.5/base/bin/linux-x86_64:$PATH
-  export EPICS_BASE=/opt/epics-R3.15.5/base
-  export EPICS_HOST_ARCH=linux-x86_64
-  export EPICS_CA_MAX_ARRAY_BYTES=1073741824
-  export EPICS_CA_ADDR_LIST=10.0.4.57
-  if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-      source /etc/profile.d/vte-2.91.sh
-  fi
+   export PATH=/opt/epics-R3.15.5/base/bin/linux-x86_64:$PATH
+   export EPICS_BASE=/opt/epics-R3.15.5/base
+   export EPICS_HOST_ARCH=linux-x86_64
+   export EPICS_CA_MAX_ARRAY_BYTES=1073741824
+   export EPICS_CA_ADDR_LIST=10.0.4.57
+   if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+     source /etc/profile.d/vte-2.91.sh
+   fi
 
 
-  * /root/.bashrc
+  #  /root/.bashrc
 
 After adding the lines give the following command:
 
-  * source /root/.bashrc
+  # source /root/.bashrc
