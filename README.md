@@ -8,6 +8,6 @@ Many steps below depends on previously described instructions. So the reader sho
 
 For the installation follow the commands on environment_variables_.bashrc.txt and after that execute the command:
 
-  # sudo ./linux_installation.sh
+  ### sudo ./linux_installation.sh
 
 aureo.carneiro@gmail.com
